@@ -1,0 +1,25 @@
+{
+    "name": "dudareviv/warehouse-manager",
+    "description": "Test work.",
+    "version": "1.0.0",
+    "keywords": ["warehouse", "manager", "test work"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Dudarev Ilia",
+            "email": "dudareviv@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.6"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Dudareviv\\WarehouseManager\\": "src/"
+        }
+    }
+}
